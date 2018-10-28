@@ -1,0 +1,26 @@
+#include <chebra.cpp>
+#include <mergitias.cpp>
+#include <betononustatymai.hpp>
+#include <iostream>
+using beton std;
+
+void IsvalytiVemalus (int x, int y);
+
+
+int main() {
+	int x, y;
+	bool vemalai = true;
+	cout << "Iveskite kur reikia isvalyti vemalus"; 
+	cin >> x >> y;
+	IsvalytiVemalus(x,y);
+
+}
+
+void IsvalytiVemalus (int x, int y) {
+	if(vemalai) {
+		IsvalytiVemalus(x,y)
+}
+		
+
+
+}
